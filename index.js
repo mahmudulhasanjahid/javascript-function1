@@ -1,5 +1,11 @@
-var number= [1,2,3,4,5];
-number.sort(function(a,b){
-    return a-b}
-);
-console.log(number)
+function addStyle() {
+  var practice = document.querySelector("p");
+
+  practice.classList.add("p");
+}
+
+function removeStyle() {
+  var practice = document.querySelector("p");
+
+  practice.classList.remove("p");
+}
